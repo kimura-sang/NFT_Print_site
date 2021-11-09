@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add node-sass
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Ruby30-x64\bin;C:\Users\Prin\AppData\Local\Microsoft\WindowsApps;C:\Users\Prin\AppData\Local\GitHubDesktop\bin;C:\Users\Prin\AppData\Local\Yarn\bin;C:\Users\Prin\AppData\Roaming\npm;C:\Users\Prin\.dotnet\tools;C:\Users\Prin\AppData\Local\Programs\Python\Python39
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'F:\Source\NFT-Print-Site\node_modules\node-sass\vendor\win32-x64-83\binding.node'
+
+npm manifest: 
+  {
+    "name": "nft_printer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "client-install": "npm install --prefix client",
+      "start": "node server.js",
+      "server": "nodemon server.js",
+      "client": "npm start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "chartist-plugin-tooltips-updated": "^0.1.4",
+      "concurrently": "^6.3.0",
+      "cors": "^2.8.5",
+      "css-loader": "^3.4.2",
+      "express": "^4.17.1",
+      "moment-timezone": "^0.5.33",
+      "mongoose": "^6.0.12",
+      "node-sass": "^4.14.1",
+      "nodemon": "^2.0.14",
+      "passport": "^0.5.0",
+      "passport-jwt": "^4.0.0",
+      "react-chartist": "^0.14.4",
+      "sass-loader": "^8.0.2",
+      "simplebar-react": "^2.3.6",
+      "sweetalert2-react": "^0.8.3",
+      "validator": "^13.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
